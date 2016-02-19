@@ -11,7 +11,11 @@
     <link rel="canonical" href="http://shashankgowda.com/blog/">
     <link rel="alternate" type="application/rss+xml" title="RSS" href="feed.xml">
     <link rel="shortcut icon" type="image/png" href="favicon.png"/>
-    <base href=""/>
+    <!--<script type="text/javascript">
+        document.write("<base href='http://" + document.location.host + "' />");
+    </script>-->
+    <base href="shashankgowda.com"></base>
+    
 
     <!-- Custom CSS & Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
     <link rel="stylesheet" href="style.css">
@@ -53,12 +57,13 @@
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
+                    <li class="page-scroll">
+                        <a href="blog">Blog</a>
+                    </li>
                     <!-- <li class="page-scroll">
                         <a href="/cv">CV</a>
                     </li>
-                    <li class="page-scroll">
-                        <a href="/blog">Blog</a>
-                    </li>
+                    
                     <li class="page-scroll">
                         <a href="/about">About</a>
                     </li>
@@ -89,10 +94,10 @@
 		
 		<li style="padding-bottom:5%;">           
 			<div>
-				<a class="post-link" href="/blog/spark/scala/2015/02/07/pipe-in-spark-3/">Pipe in Spark
+				<a class="post-link" href="/2016/02/20/introduction-to-dataset-api-in-spark.html">Introduction to Dataset API in Spark
 				</a> 
-				<p class="post-date">Feb 7, 2015</p>
-				<p> <p>Pipe operator in Spark, allows developer to process RDD data using external applications. Sometimes in data analysis, we need to use an external library which may not be written using Java/Scala. Ex: Fortran math libraries. In that case, spark’s pipe operator allows us to send the RDD data to the external application.</p>
+				<p class="post-date">Feb 20, 2016</p>
+				<p> <p>The below video is a recording of my talk on <em>Introduction to Dataset API in Spark</em> in recent <a href="www.meetup.com/Bangalore-Apache-Spark-Meetup">Spark meet up</a>. In this talk, we discuss about the limitation of Dataframe API and how Dataset solve the limitations.</p>
 
  </p>
 			</div>                                  
@@ -100,56 +105,10 @@
 		
 		<li style="padding-bottom:5%;">           
 			<div>
-				<a class="post-link" href="/blog/spark/scala/2015/02/07/pipe-in-spark-2/">Pipe in Spark
+				<a class="post-link" href="/2016/02/20/anatomy-of-inmemory-management-in-spark.html">Anatomy of in-memory management in Spark
 				</a> 
-				<p class="post-date">Feb 7, 2015</p>
-				<p> <p>Pipe operator in Spark, allows developer to process RDD data using external applications. Sometimes in data analysis, we need to use an external library which may not be written using Java/Scala. Ex: Fortran math libraries. In that case, spark’s pipe operator allows us to send the RDD data to the external application.</p>
-
- </p>
-			</div>                                  
-		</li>        
-		
-		<li style="padding-bottom:5%;">           
-			<div>
-				<a class="post-link" href="/blog/spark/scala/2015/02/07/pipe-in-spark/">Pipe in Spark
-				</a> 
-				<p class="post-date">Feb 7, 2015</p>
-				<p> <p>Pipe operator in Spark, allows developer to process RDD data using external applications. Sometimes in data analysis, we need to use an external library which may not be written using Java/Scala. Ex: Fortran math libraries. In that case, spark’s pipe operator allows us to send the RDD data to the external application.</p>
-
- </p>
-			</div>                                  
-		</li>        
-		
-		<li style="padding-bottom:5%;">           
-			<div>
-				<a class="post-link" href="/blog/spark/scala/2014/11/18/kryo-disk-serialization-in-spark/">Kryo disk serialization in Spark
-				</a> 
-				<p class="post-date">Nov 18, 2014</p>
-				<p> <p>In apache spark, it’s <a href="http://spark.apache.org/docs/latest/tuning.html#data-serialization">advised</a> to use the kryo serialization over java serialization for big data applications. Kryo has less memory footprint compared to java serialization which becomes very important when you are shuffling and caching large amount of data.</p>
-
- </p>
-			</div>                                  
-		</li>        
-		
-		<li style="padding-bottom:5%;">           
-			<div>
-				<a class="post-link" href="/blog/spark/2014/09/29/evaluating-spark-rdd-for-side-effects-2/">Evaluating Spark RDD's for side effects
-				</a> 
-				<p class="post-date">Sep 29, 2014</p>
-				<p> <p>Accumulators in Spark are highly useful to do side effect based operations.
-For example, the following code calculates both sum and sum of squares as a side effect.</p>
-
- </p>
-			</div>                                  
-		</li>        
-		
-		<li style="padding-bottom:5%;">           
-			<div>
-				<a class="post-link" href="/blog/spark/2014/09/29/evaluating-spark-rdd-for-side-effects/">Evaluating Spark RDD's for side effects
-				</a> 
-				<p class="post-date">Sep 29, 2014</p>
-				<p> <p>Accumulators in Spark are highly useful to do side effect based operations.
-For example, the following code calculates both sum and sum of squares as a side effect.</p>
+				<p class="post-date">Feb 20, 2016</p>
+				<p> <p>The below video is a recording of my talk on <em>Anatomy of in-memory management in Spark</em> in recent Spark meet up. In this talk, we discuss about how custom memory management is done in Apache Spark. This talk focuses on details of optimizations done to Spark under <em>Project Tungsten</em>.</p>
 
  </p>
 			</div>                                  
@@ -169,46 +128,14 @@ For example, the following code calculates both sum and sum of squares as a side
     
       <ul class="list-unstyled">
     
-      <li style="margin-top:5%;"><a href="/blog/spark/scala/2015/02/07/pipe-in-spark-3/" style="color:#25aae1;font-size: 125%;">Pipe in Spark</a></li>
+      <li style="margin-top:5%;"><a href="/2016/02/20/introduction-to-dataset-api-in-spark.html" style="color:#25aae1;font-size: 125%;">Introduction to Dataset API in Spark</a></li>
   
     
       
       
       
     
-      <li style="margin-top:5%;"><a href="/blog/spark/scala/2015/02/07/pipe-in-spark-2/" style="color:#25aae1;font-size: 125%;">Pipe in Spark</a></li>
-  
-    
-      
-      
-      
-    
-      <li style="margin-top:5%;"><a href="/blog/spark/scala/2015/02/07/pipe-in-spark/" style="color:#25aae1;font-size: 125%;">Pipe in Spark</a></li>
-  
-    
-      
-      
-      
-        </ul>
-        <h3>2014</h3>
-        <ul class="list-unstyled">
-      
-    
-      <li style="margin-top:5%;"><a href="/blog/spark/scala/2014/11/18/kryo-disk-serialization-in-spark/" style="color:#25aae1;font-size: 125%;">Kryo disk serialization in Spark</a></li>
-  
-    
-      
-      
-      
-    
-      <li style="margin-top:5%;"><a href="/blog/spark/2014/09/29/evaluating-spark-rdd-for-side-effects-2/" style="color:#25aae1;font-size: 125%;">Evaluating Spark RDD's for side effects</a></li>
-  
-    
-      
-      
-      
-    
-      <li style="margin-top:5%;"><a href="/blog/spark/2014/09/29/evaluating-spark-rdd-for-side-effects/" style="color:#25aae1;font-size: 125%;">Evaluating Spark RDD's for side effects</a></li>
+      <li style="margin-top:5%;"><a href="/2016/02/20/anatomy-of-inmemory-management-in-spark.html" style="color:#25aae1;font-size: 125%;">Anatomy of in-memory management in Spark</a></li>
   
   </ul>
 
@@ -296,7 +223,7 @@ For example, the following code calculates both sum and sum of squares as a side
                 <div class="row">
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
-                            <h2>Pipe in Spark</h2>
+                            <h2>Introduction to Dataset API in Spark</h2>
                             <hr class="star-primary">
                             <img src="img/portfolio/" class="img-responsive img-centered" alt="">
                             <p></p>
@@ -334,159 +261,7 @@ For example, the following code calculates both sum and sum of squares as a side
                 <div class="row">
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
-                            <h2>Pipe in Spark</h2>
-                            <hr class="star-primary">
-                            <img src="img/portfolio/" class="img-responsive img-centered" alt="">
-                            <p></p>
-                            <ul class="list-inline item-details">
-                                <li>Client:
-                                    <strong><a href="http://startbootstrap.com"></a>
-                                    </strong>
-                                </li>
-                                <li>Date:
-                                    <strong><a href="http://startbootstrap.com"></a>
-                                    </strong>
-                                </li>
-                                <li>Service:
-                                    <strong><a href="http://startbootstrap.com"></a>
-                                    </strong>
-                                </li>
-                            </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="portfolio-modal modal fade" id="portfolioModal-" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>Pipe in Spark</h2>
-                            <hr class="star-primary">
-                            <img src="img/portfolio/" class="img-responsive img-centered" alt="">
-                            <p></p>
-                            <ul class="list-inline item-details">
-                                <li>Client:
-                                    <strong><a href="http://startbootstrap.com"></a>
-                                    </strong>
-                                </li>
-                                <li>Date:
-                                    <strong><a href="http://startbootstrap.com"></a>
-                                    </strong>
-                                </li>
-                                <li>Service:
-                                    <strong><a href="http://startbootstrap.com"></a>
-                                    </strong>
-                                </li>
-                            </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="portfolio-modal modal fade" id="portfolioModal-" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>Kryo disk serialization in Spark</h2>
-                            <hr class="star-primary">
-                            <img src="img/portfolio/" class="img-responsive img-centered" alt="">
-                            <p></p>
-                            <ul class="list-inline item-details">
-                                <li>Client:
-                                    <strong><a href="http://startbootstrap.com"></a>
-                                    </strong>
-                                </li>
-                                <li>Date:
-                                    <strong><a href="http://startbootstrap.com"></a>
-                                    </strong>
-                                </li>
-                                <li>Service:
-                                    <strong><a href="http://startbootstrap.com"></a>
-                                    </strong>
-                                </li>
-                            </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="portfolio-modal modal fade" id="portfolioModal-" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>Evaluating Spark RDD's for side effects</h2>
-                            <hr class="star-primary">
-                            <img src="img/portfolio/" class="img-responsive img-centered" alt="">
-                            <p></p>
-                            <ul class="list-inline item-details">
-                                <li>Client:
-                                    <strong><a href="http://startbootstrap.com"></a>
-                                    </strong>
-                                </li>
-                                <li>Date:
-                                    <strong><a href="http://startbootstrap.com"></a>
-                                    </strong>
-                                </li>
-                                <li>Service:
-                                    <strong><a href="http://startbootstrap.com"></a>
-                                    </strong>
-                                </li>
-                            </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="portfolio-modal modal fade" id="portfolioModal-" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>Evaluating Spark RDD's for side effects</h2>
+                            <h2>Anatomy of in-memory management in Spark</h2>
                             <hr class="star-primary">
                             <img src="img/portfolio/" class="img-responsive img-centered" alt="">
                             <p></p>

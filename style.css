@@ -541,3 +541,7 @@ header{
 	color: #818181;
 	font-size: 100%;
 }
+
+.post-header > h2{
+  text-transform: none;
+}

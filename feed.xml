@@ -5,16 +5,16 @@
     <description>Personal website for Shashank L. Big data consultant and trainer. Consult in Apache Spark, Apache Hadoop and Scala.</description>
     <link>http://shashankgowda.com/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 15 Feb 2016 22:48:01 +0530</pubDate>
-    <lastBuildDate>Mon, 15 Feb 2016 22:48:01 +0530</lastBuildDate>
-    <generator>Jekyll v2.5.3</generator>
+    <pubDate>Sat, 20 Feb 2016 00:31:23 +0530</pubDate>
+    <lastBuildDate>Sat, 20 Feb 2016 00:31:23 +0530</lastBuildDate>
+    <generator>Jekyll v3.1.1</generator>
     
       <item>
-        <title>Pipe in Spark</title>
+        <title>Introduction to Dataset API in Spark</title>
         <description></description>
-        <pubDate>Sat, 07 Feb 2015 00:00:00 +0530</pubDate>
-        <link>http://shashankgowda.com/blog/spark/scala/2015/02/07/pipe-in-spark-3/</link>
-        <guid isPermaLink="true">http://shashankgowda.com/blog/spark/scala/2015/02/07/pipe-in-spark-3/</guid>
+        <pubDate>Sat, 20 Feb 2016 00:00:00 +0530</pubDate>
+        <link>http://shashankgowda.com/2016/02/20/introduction-to-dataset-api-in-spark.html</link>
+        <guid isPermaLink="true">http://shashankgowda.com/2016/02/20/introduction-to-dataset-api-in-spark.html</guid>
         
         
         <category>blog</category>
@@ -23,14 +23,22 @@
         
         <category>scala</category>
         
+        <category>talks</category>
+        
+        <category>dataset</category>
+        
+        <category>dataframe</category>
+        
+        <category>encoder</category>
+        
       </item>
     
       <item>
-        <title>Pipe in Spark</title>
+        <title>Anatomy of in-memory management in Spark</title>
         <description></description>
-        <pubDate>Sat, 07 Feb 2015 00:00:00 +0530</pubDate>
-        <link>http://shashankgowda.com/blog/spark/scala/2015/02/07/pipe-in-spark-2/</link>
-        <guid isPermaLink="true">http://shashankgowda.com/blog/spark/scala/2015/02/07/pipe-in-spark-2/</guid>
+        <pubDate>Sat, 20 Feb 2016 00:00:00 +0530</pubDate>
+        <link>http://shashankgowda.com/2016/02/20/anatomy-of-inmemory-management-in-spark.html</link>
+        <guid isPermaLink="true">http://shashankgowda.com/2016/02/20/anatomy-of-inmemory-management-in-spark.html</guid>
         
         
         <category>blog</category>
@@ -39,65 +47,13 @@
         
         <category>scala</category>
         
-      </item>
-    
-      <item>
-        <title>Pipe in Spark</title>
-        <description></description>
-        <pubDate>Sat, 07 Feb 2015 00:00:00 +0530</pubDate>
-        <link>http://shashankgowda.com/blog/spark/scala/2015/02/07/pipe-in-spark/</link>
-        <guid isPermaLink="true">http://shashankgowda.com/blog/spark/scala/2015/02/07/pipe-in-spark/</guid>
+        <category>talks</category>
         
+        <category>inmemory</category>
         
-        <category>blog</category>
+        <category>jvm</category>
         
-        <category>spark</category>
-        
-        <category>scala</category>
-        
-      </item>
-    
-      <item>
-        <title>Kryo disk serialization in Spark</title>
-        <description></description>
-        <pubDate>Tue, 18 Nov 2014 00:00:00 +0530</pubDate>
-        <link>http://shashankgowda.com/blog/spark/scala/2014/11/18/kryo-disk-serialization-in-spark/</link>
-        <guid isPermaLink="true">http://shashankgowda.com/blog/spark/scala/2014/11/18/kryo-disk-serialization-in-spark/</guid>
-        
-        
-        <category>blog</category>
-        
-        <category>spark</category>
-        
-        <category>scala</category>
-        
-      </item>
-    
-      <item>
-        <title>Evaluating Spark RDD&#39;s for side effects</title>
-        <description></description>
-        <pubDate>Mon, 29 Sep 2014 00:00:00 +0530</pubDate>
-        <link>http://shashankgowda.com/blog/spark/2014/09/29/evaluating-spark-rdd-for-side-effects-2/</link>
-        <guid isPermaLink="true">http://shashankgowda.com/blog/spark/2014/09/29/evaluating-spark-rdd-for-side-effects-2/</guid>
-        
-        
-        <category>blog</category>
-        
-        <category>spark</category>
-        
-      </item>
-    
-      <item>
-        <title>Evaluating Spark RDD&#39;s for side effects</title>
-        <description></description>
-        <pubDate>Mon, 29 Sep 2014 00:00:00 +0530</pubDate>
-        <link>http://shashankgowda.com/blog/spark/2014/09/29/evaluating-spark-rdd-for-side-effects/</link>
-        <guid isPermaLink="true">http://shashankgowda.com/blog/spark/2014/09/29/evaluating-spark-rdd-for-side-effects/</guid>
-        
-        
-        <category>blog</category>
-        
-        <category>spark</category>
+        <category>projecttungsten</category>
         
       </item>
     
