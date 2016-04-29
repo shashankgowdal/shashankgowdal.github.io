@@ -492,6 +492,10 @@ header{
   background: #fff;
 }
 
+.navbar-default .navbar-nav>li>a:hover{
+    color: #18bc9c !important;
+    background-color: transparent;
+}
 
 @media(max-width:768px) {
  	.profile-pic{
@@ -518,6 +522,11 @@ header{
 
 .innerpage_heading h1{
 	margin-top: 12%;
+  /*font-size: 1.8em;*/
+}
+
+.innerpage_content{
+  padding-bottom: 4%;
 }
 
 

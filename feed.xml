@@ -5,13 +5,13 @@
     <description>Personal website for Shashank L. Big data consultant and trainer. Consult in Apache Spark, Apache Hadoop and Scala.</description>
     <link>http://shashankgowda.com/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 20 Feb 2016 01:25:34 +0530</pubDate>
-    <lastBuildDate>Sat, 20 Feb 2016 01:25:34 +0530</lastBuildDate>
+    <pubDate>Fri, 29 Apr 2016 18:00:37 +0530</pubDate>
+    <lastBuildDate>Fri, 29 Apr 2016 18:00:37 +0530</lastBuildDate>
     <generator>Jekyll v3.1.1</generator>
     
       <item>
         <title>Introduction to Dataset API in Spark</title>
-        <description></description>
+        <description>Overcoming limitations of Dataframe API using Dataset API</description>
         <pubDate>Sat, 20 Feb 2016 00:00:00 +0530</pubDate>
         <link>http://shashankgowda.com/2016/02/20/introduction-to-dataset-api-in-spark.html</link>
         <guid isPermaLink="true">http://shashankgowda.com/2016/02/20/introduction-to-dataset-api-in-spark.html</guid>
@@ -35,7 +35,7 @@
     
       <item>
         <title>Anatomy of in-memory management in Spark</title>
-        <description></description>
+        <description>Discussion about custom memory in Apache Spark</description>
         <pubDate>Sat, 20 Feb 2016 00:00:00 +0530</pubDate>
         <link>http://shashankgowda.com/2016/02/20/anatomy-of-inmemory-management-in-spark.html</link>
         <guid isPermaLink="true">http://shashankgowda.com/2016/02/20/anatomy-of-inmemory-management-in-spark.html</guid>
