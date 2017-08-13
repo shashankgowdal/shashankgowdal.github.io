@@ -5,9 +5,55 @@
     <description>Personal website for Shashank L. Big data consultant and trainer. Consult in Apache Spark, Apache Hadoop and Scala.</description>
     <link>http://shashankgowda.com/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 30 Apr 2016 01:04:56 +0530</pubDate>
-    <lastBuildDate>Sat, 30 Apr 2016 01:04:56 +0530</lastBuildDate>
-    <generator>Jekyll v3.1.1</generator>
+    <pubDate>Sun, 13 Aug 2017 08:04:47 +0530</pubDate>
+    <lastBuildDate>Sun, 13 Aug 2017 08:04:47 +0530</lastBuildDate>
+    <generator>Jekyll v3.1.6</generator>
+    
+      <item>
+        <title>Introduction to concurrent programming with Akka Actors</title>
+        <description>A brief introduction to Akka Actors</description>
+        <pubDate>Sun, 13 Aug 2017 00:00:00 +0530</pubDate>
+        <link>http://shashankgowda.com/2017/08/13/introduction-to-concurrent-programming-with-akka-actors.html</link>
+        <guid isPermaLink="true">http://shashankgowda.com/2017/08/13/introduction-to-concurrent-programming-with-akka-actors.html</guid>
+        
+        
+        <category>blog</category>
+        
+        <category>spark</category>
+        
+        <category>scala</category>
+        
+        <category>talks</category>
+        
+        <category>akka</category>
+        
+        <category>typesafe</category>
+        
+      </item>
+    
+      <item>
+        <title>Building scalable rest service using Akka HTTP</title>
+        <description>A brief introduction to Akka HTTP</description>
+        <pubDate>Sun, 13 Aug 2017 00:00:00 +0530</pubDate>
+        <link>http://shashankgowda.com/2017/08/13/building-scalable-rest-service-using-akka-http.html</link>
+        <guid isPermaLink="true">http://shashankgowda.com/2017/08/13/building-scalable-rest-service-using-akka-http.html</guid>
+        
+        
+        <category>blog</category>
+        
+        <category>spark</category>
+        
+        <category>scala</category>
+        
+        <category>talks</category>
+        
+        <category>akkahttp</category>
+        
+        <category>akka</category>
+        
+        <category>typesafe</category>
+        
+      </item>
     
       <item>
         <title>Introduction to Dataset API in Spark</title>
